@@ -1,0 +1,9 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+TAILLE_G		TAR	73	nouvelle taille enregistrement : 73
+TAILLE_G	sup	RUB+		sup est une nouvelle rubrique
+PARFUN_G		TAR	73	nouvelle taille enregistrement : 73
+PARFUN_G	sup	RUB+		sup est une nouvelle rubrique
+Fourrage		TAR	73	nouvelle taille enregistrement : 73
+Fourrage	sup	RUB+		sup est une nouvelle rubrique
+option		TAR	73	nouvelle taille enregistrement : 73
+option	sup	RUB+		sup est une nouvelle rubrique

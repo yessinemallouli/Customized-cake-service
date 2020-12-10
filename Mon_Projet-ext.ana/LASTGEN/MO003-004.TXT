@@ -1,0 +1,6 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+produit		TAR	221	nouvelle taille enregistrement : 221
+produit	nom_taille	RUB+		nom_taille est une nouvelle rubrique
+produit	nom_parfum	RUB+		nom_parfum est une nouvelle rubrique
+produit	nom_fourrage	RUB+		nom_fourrage est une nouvelle rubrique
+produit	nom_option	RUB+		nom_option est une nouvelle rubrique

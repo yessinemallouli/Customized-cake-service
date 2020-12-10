@@ -1,0 +1,7 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+produit_TAILLE_G		NFI		nouveau fichier
+produit_TAILLE_G		FIC-	TAILLE_G_produit	Fichier supprimé TAILLE_G_produit
+TAILLE_G		NWL	TAILLE_G (IDTAILLE_G) et produit_TAILLE_G (IDTAILLE_G)	Nouvelle liaison entre les fichiers TAILLE_G (IDTAILLE_G) et produit_TAILLE_G (IDTAILLE_G)
+produit		NWL	produit (IDproduit) et produit_TAILLE_G (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et produit_TAILLE_G (IDproduit)
+produit		DEL	produit (IDproduit) et TAILLE_G_produit (IDproduit)	Liaison supprimée entre les fichiers produit (IDproduit) et TAILLE_G_produit (IDproduit)
+TAILLE_G		DEL	TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)	Liaison supprimée entre les fichiers TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)

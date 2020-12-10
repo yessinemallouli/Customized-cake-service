@@ -1,0 +1,5 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+produit		TAR	278	nouvelle taille enregistrement : 278
+produit	nom	RUB+		nom est une nouvelle rubrique
+produit	prix	RUB+		prix est une nouvelle rubrique
+produit	sup	RUB+		sup est une nouvelle rubrique

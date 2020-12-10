@@ -1,0 +1,5 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Fourrage_G		NNF*	Fourrage	nouveau nom Fourrage_G
+option_G		NNF*	option	nouveau nom option_G
+Fourrage_G		FRN		
+option_G		FRN		

@@ -1,0 +1,2 @@
+//MO008-009.TXT ANA00008 TO ANA00009
+produit	prix	CNW	Réel sur 4 octets$Entier sur 4 octets	la rubrique prix a pour nouveau type Réel sur 4 octets

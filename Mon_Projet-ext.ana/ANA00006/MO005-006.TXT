@@ -1,0 +1,25 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+TAILLE_G_produit		NFI		nouveau fichier
+produit_option_G		NFI		nouveau fichier
+produit_Fourrage_G		NFI		nouveau fichier
+produit_PARFUN_G		NFI		nouveau fichier
+produit_PARFUN_G		FIC-	option_produit	Fichier supprimé option_produit
+produit_PARFUN_G		FIC-	TAILLE_G_produit	Fichier supprimé TAILLE_G_produit
+produit_PARFUN_G		FIC-	Fourrage_produit	Fichier supprimé Fourrage_produit
+produit_PARFUN_G		FIC-	PARFUN_G_produit	Fichier supprimé PARFUN_G_produit
+produit		NWL	produit (IDproduit) et TAILLE_G_produit (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et TAILLE_G_produit (IDproduit)
+TAILLE_G		NWL	TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)	Nouvelle liaison entre les fichiers TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)
+option_G		NWL	option_G (IDoption) et produit_option_G (IDoption)	Nouvelle liaison entre les fichiers option_G (IDoption) et produit_option_G (IDoption)
+produit		NWL	produit (IDproduit) et produit_option_G (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et produit_option_G (IDproduit)
+PARFUN_G		NWL	PARFUN_G (IDPARFUN_G) et produit_PARFUN_G (IDPARFUN_G)	Nouvelle liaison entre les fichiers PARFUN_G (IDPARFUN_G) et produit_PARFUN_G (IDPARFUN_G)
+produit		NWL	produit (IDproduit) et produit_PARFUN_G (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et produit_PARFUN_G (IDproduit)
+Fourrage_G		NWL	Fourrage_G (IDFourrage) et produit_Fourrage_G (IDFourrage)	Nouvelle liaison entre les fichiers Fourrage_G (IDFourrage) et produit_Fourrage_G (IDFourrage)
+produit		NWL	produit (IDproduit) et produit_Fourrage_G (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et produit_Fourrage_G (IDproduit)
+option_G		DEL	option_G (IDoption) et option_produit (IDoption)	Liaison supprimée entre les fichiers option_G (IDoption) et option_produit (IDoption)
+produit		DEL	produit (IDproduit) et option_produit (IDproduit)	Liaison supprimée entre les fichiers produit (IDproduit) et option_produit (IDproduit)
+TAILLE_G		DEL	TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)	Liaison supprimée entre les fichiers TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)
+produit		DEL	produit (IDproduit) et TAILLE_G_produit (IDproduit)	Liaison supprimée entre les fichiers produit (IDproduit) et TAILLE_G_produit (IDproduit)
+Fourrage_G		DEL	Fourrage_G (IDFourrage) et Fourrage_produit (IDFourrage)	Liaison supprimée entre les fichiers Fourrage_G (IDFourrage) et Fourrage_produit (IDFourrage)
+produit		DEL	produit (IDproduit) et Fourrage_produit (IDproduit)	Liaison supprimée entre les fichiers produit (IDproduit) et Fourrage_produit (IDproduit)
+PARFUN_G		DEL	PARFUN_G (IDPARFUN_G) et PARFUN_G_produit (IDPARFUN_G)	Liaison supprimée entre les fichiers PARFUN_G (IDPARFUN_G) et PARFUN_G_produit (IDPARFUN_G)
+produit		DEL	produit (IDproduit) et PARFUN_G_produit (IDproduit)	Liaison supprimée entre les fichiers produit (IDproduit) et PARFUN_G_produit (IDproduit)

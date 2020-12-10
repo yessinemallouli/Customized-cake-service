@@ -1,0 +1,18 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+produit		NFI		nouveau fichier
+TAILLE_G		NFI		nouveau fichier
+PARFUN_G		NFI		nouveau fichier
+Fourrage		NFI		nouveau fichier
+option		NFI		nouveau fichier
+option_produit		NFI		nouveau fichier
+TAILLE_G_produit		NFI		nouveau fichier
+Fourrage_produit		NFI		nouveau fichier
+PARFUN_G_produit		NFI		nouveau fichier
+option		NWL	option (IDoption) et option_produit (IDoption)	Nouvelle liaison entre les fichiers option (IDoption) et option_produit (IDoption)
+produit		NWL	produit (IDproduit) et option_produit (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et option_produit (IDproduit)
+TAILLE_G		NWL	TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)	Nouvelle liaison entre les fichiers TAILLE_G (IDTAILLE_G) et TAILLE_G_produit (IDTAILLE_G)
+produit		NWL	produit (IDproduit) et TAILLE_G_produit (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et TAILLE_G_produit (IDproduit)
+Fourrage		NWL	Fourrage (IDFourrage) et Fourrage_produit (IDFourrage)	Nouvelle liaison entre les fichiers Fourrage (IDFourrage) et Fourrage_produit (IDFourrage)
+produit		NWL	produit (IDproduit) et Fourrage_produit (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et Fourrage_produit (IDproduit)
+PARFUN_G		NWL	PARFUN_G (IDPARFUN_G) et PARFUN_G_produit (IDPARFUN_G)	Nouvelle liaison entre les fichiers PARFUN_G (IDPARFUN_G) et PARFUN_G_produit (IDPARFUN_G)
+produit		NWL	produit (IDproduit) et PARFUN_G_produit (IDproduit)	Nouvelle liaison entre les fichiers produit (IDproduit) et PARFUN_G_produit (IDproduit)

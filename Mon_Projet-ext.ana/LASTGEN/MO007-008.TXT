@@ -1,0 +1,5 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+TAILLE_G	valeur	CNW	Réel sur 4 octets$Entier sur 4 octets	la rubrique valeur a pour nouveau type Réel sur 4 octets
+PARFUN_G	valeur	CNW	Réel sur 4 octets$Entier sur 4 octets	la rubrique valeur a pour nouveau type Réel sur 4 octets
+Fourrage_G	valeur	CNW	Réel sur 4 octets$Entier sur 4 octets	la rubrique valeur a pour nouveau type Réel sur 4 octets
+option_G	valeur	CNW	Réel sur 4 octets$Entier sur 4 octets	la rubrique valeur a pour nouveau type Réel sur 4 octets
